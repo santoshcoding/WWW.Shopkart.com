@@ -1,2 +1,0 @@
-# WWW.Shopkart.com
-shopkart

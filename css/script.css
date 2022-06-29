@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	text-decoration:none;
+	list-style:none;
+}
+.Header{ background:#09f;}
+.navbar a img{ border-radius:10px;}
+.logo-txt{ display:inline-block;}
+.logo-txt h4{ font-size:18px; color:#fff;}
+.logo-txt p{ font-size:13px; color:#fff;}
+.Men .menbtn{ border:none; outline:none; background:none;}
+.menbtn a{ color:#fff;}
+.menbtn a:hover{ color:#F30;}
+.Men-content{
+	display:none;
+	position:absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 5;
+	background:#fff;
+	right:150px;
+	left:150px;
+}
+.Men:hover .Men-content {
+  display: block;
+}
+.Men-content .row{ padding:0 30px;}
+  
+.Men-content .ul{ list-style:none;}
+
+
+.Women .womenbtn{ border:none; outline:none; background:none;}
+.womenbtn a{ color:#fff;}
+.womenbtn a:hover{ color:#F30;}
+.Women-content{
+	display:none;
+	position:absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 5;
+	background:#fff;
+	right:150px;
+	left:150px;
+}
+.Women:hover .Women-content {
+  display: block;
+}
+.Women-content .row{ padding:0 30px;}
+  
+.Women-content .ul{ list-style:none;}

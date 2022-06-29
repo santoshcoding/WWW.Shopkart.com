@@ -1,0 +1,140 @@
+body {
+	/*background-image:url(../img/WhatsApp%20Image%202022-05-21%20at%209.44.16%20PM.jpeg);*/
+	background:url(../img/WhatsApp%20Image%202022-05-21%20at%209.44.16%20PM.jpeg) no-repeat ;
+	background-size: 100%;
+	background-height: auto;
+  font-family: "Roboto",sans-serif;
+  
+}
+
+
+.container img{
+max-width: 80px;
+height: 80px;
+position: relative;
+top: -60px;
+left: 40%;
+margin: 10 auto;
+opacity: 0.8;
+border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.18);
+  
+ 
+}
+.container2 img{
+max-width: 80px;
+height: 80px;
+position: relative;
+top: 35px;
+left: 47%;
+margin: 10px auto;
+opacity: 0.8;
+border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.18);
+  
+ 
+}
+
+.signup-box {
+  width: 340px;
+  height: 575px;
+  margin: 80px auto;
+  background: rgba(150, 150, 150, 0.35);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.3px);
+  -webkit-backdrop-filter: blur(0.3px);
+  
+}
+
+.login-box {
+  width: 360px;
+  height: 360px;
+  margin: -15px auto;
+  background: rgba(150, 150, 150, 0.35);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.3px);
+  -webkit-backdrop-filter: blur(0.3px);
+}
+
+h1 {
+  text-align: center;
+  margin-top: -60px;
+}
+.para-1{
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 35px;
+  font-size: 32px;
+   font-weight: bold;
+  }
+
+h4 {
+  text-align: center;
+  opacity: 0.8;
+  margin-top: -20px;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  border-bottom: 1px solid #FFFFFF;
+  color:#FFFFFF
+}
+input[type="button"] {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  color:#FFFFFF;
+  cursor: pointer;
+  transition: 0.2px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: #49c1a2;
+  opacity: 0.7;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: -25px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -25px;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+
+.para-3{
+text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -25px;
+}
