@@ -27,7 +27,7 @@
     <div class="logo">
     	<div class="logo-left">
         <div class="logo-img">
-        	<a href="index.php"><img alt="logo" src="img/Logo.jpg" height="60px" width="70px"></a>
+        	<a href="index.html"><img alt="logo" src="img/Logo.jpg" height="60px" width="70px"></a>
         </div>
       	<div class="logo-txt">
         	<h4>Shopkart</h4>
