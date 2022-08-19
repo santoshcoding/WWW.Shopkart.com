@@ -1,17 +1,12 @@
 
  body{ 
- margin:0;
- padding:0;
+ font-family:"Buxton Sketch";
 }
  *{
-	margin:0;
-	padding:0;
 	box-sizing:border-box;
 	text-decoration:none;
 	list-style:none;
 }
-
-
 .Header{ background:#09f;}
 .navbar a img{ border-radius:10px;}
 .logo-txt{ display:inline-block;}
@@ -19,10 +14,9 @@
 .logo-txt p{ font-size:13px; color:#fff;}
 
 .navbar{ background:#0cf;}
-
-
 .container-xl .col-md ul li a{ color:#6c757d; text-decoration:none; display:block;}
 .container-xl .col-md ul li a:hover{ transform:scale(1.02); color:#000;}
+
 .Men{ float:left; padding:0 10px;}
 .Men .menbtn{ border:none; outline:none; background:none;}
 .menbtn a{ color:#fff;}
@@ -44,7 +38,6 @@
 .Men-content .row{ padding:0 30px;}
   
 .Men-content .ul{ list-style:none;}
-
 
 .Women{ float:left; padding:0 10px;}
 .Women .womenbtn{ border:none; outline:none; background:none;}
@@ -148,7 +141,7 @@
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 5;
 	background:#fff;
-	left:450px;
+	right:150px;
 }
 .Studio:hover .Studio-content {
   display: block;
@@ -168,6 +161,27 @@
 .bag .fa{ color:#fff;}
 .bag p{ color:#fff;}
 
+ navigation End 
+ 
+ .carousel-item img{
+	 width:100%;
+	 height:auto;
+}
+ 
+
+ .pic{ width:100%;
+ 	   height:360px;
+	   overflow:hidden;
+	   position:relative;
+	   }
+ .pic-inner{
+	 height:100%;
+	 width:100%
+	 }
+ .pic-inner img{
+	 height:100%;
+	 width:100%;
+	 }
  .carousel-indicators li{
 	width: 15px;
     height: 15px;
@@ -242,6 +256,9 @@
 	text-transform:uppercase;
 	padding-top:60px;
 }
+.product h2{
+	padding-top:60px;
+	}
 .product h5{
 	font-family:Arial, Helvetica, sans-serif;
 	padding:10px 0;
